@@ -1,0 +1,332 @@
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header{
+  background: #000;
+  height: auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.nav .left img{
+  width: 35%;
+}
+.nav .two ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-left: -30%;
+}
+.nav .two ul li{
+  color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+.nav .right{
+  display: flex;
+  gap: 1rem;
+}
+.nav .right img{
+ width: 20px;
+ height: 30px;
+} 
+
+/* ********home sectionnnnnnn********* */
+
+.home{
+  background: #000;
+  padding-bottom: 10%;
+}
+.home-section{
+  display: flex;
+  padding-top: 50px;
+}
+
+
+.home-section .left h1{
+  color: #fff;
+  font-size:3rem;
+  font-weight: 500;
+  
+}
+.home-section .left p{
+  color: gray;
+  width: 48%;
+}
+.home-section .left .input-section{
+  display: flex;
+  width: 48%;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  gap: 7rem;
+  
+  border-radius: 10px;
+}
+.home-section .left .input-section input:focus{
+  outline: none;
+}
+.home-section .left .input-section button{
+ background: rgb(57, 57, 211);
+ padding: 8px 15px;
+ border-radius: 10px;
+ color: white;
+}
+.home-section .right img{
+  height: 400px;
+  width: 500px;
+}
+
+
+
+/* middile sectionnnn */
+.input-watch{
+  display: flex;
+  padding-top: 40px;
+  gap: 1rem;
+  height: 100%;
+  height: 270px;
+}
+.input-watch .watch1{
+  background: rgba(128, 128, 128, 0.164);
+  border-radius: 10px;
+  width: 80%;
+  text-align: left;
+  display: flex;
+}
+.input-watch .watch1 img{
+  width: 180px;
+  height: 200px;
+  padding-top: 5%;
+  padding-left: 7%;
+  
+}
+
+.input-watch .text{
+  padding: 10%;
+ 
+}
+.input-watch .watch1 .text h1 {
+  font-weight: 900;
+  font-size: 120%;
+  padding-top: 0%;
+}
+
+.input-watch .watch1 p {
+  color: rgba(20, 19, 19, 0.515);
+  
+}
+/* 
+               gallery sectionnnnnn texttttt */
+
+
+.gallery div.text h1 {
+  color: rgb(49, 83, 234);
+  text-align: center;
+  padding-top: 10%;
+
+}
+
+.gallery div.text p {
+text-align: center;
+font-weight: 900;
+font-size: 200%;
+
+}
+
+.text{
+  padding-bottom: 5%;
+}
+
+/* 
+
+gallery section */
+.product-section{
+  display: flex;
+  gap: 2rem;
+}
+.watch-product .star{
+width: 100px;
+margin-left: 35%;
+
+} 
+
+.watch-product span{
+  color: gray;
+  text-decoration: line-through;
+}
+
+.watch-product .name{
+margin-left: 30%;
+font-weight: 800;
+font-size: 20px;
+}
+.watch-product .star1{
+  width: 100px;
+  margin-left: 32%;
+}
+.watch-product .prize{
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 34%;
+}
+ .view {
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+.view a{
+  padding: 10px 40px;
+  background-color: rgb(49, 83, 234);
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+/* foootersection1111111111 */
+
+.last{
+  text-align: center;
+  margin-top: 7%;
+  
+}
+
+.last h1{
+  color:  rgb(49, 83, 234);
+  
+}
+
+.last p{
+ font-weight: 900;
+ font-size: 212%;
+ margin-bottom: 30px;
+}
+
+/* footersectionnn2222222 */
+.user-section{
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  gap:2rem;
+
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  background:  rgba(128, 128, 128, 0.164);
+  border-radius: 10px;
+    padding: 20px;
+  
+}
+.user h1{
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 40px;
+
+}
+.user p{
+  width: 90%;
+  color: grey;
+}
+
+.user img{
+ width: 600px;
+}
+
+ .user-section .star{
+  width: 150px;
+  padding-top: 10px;
+}
+
+/* foooteer sectionnnnn3333333333 */
+
+.footer3 .about{
+  display: flex;
+  justify-content: space-between;
+background-color: rgba(128, 128, 128, 0.164);
+border-radius: 10px;
+margin-top: 20%;
+text-align: left;
+align-items: center;
+height: 350px;
+
+}
+
+ .about .lasttext {
+  padding-left: 110px;
+  width: 50%;
+}
+
+.about .lasttext h1{
+  font-size: 200%;
+  font-weight: 900;
+  width: 500px;
+}
+
+
+.about .lasttext p{
+  color: gray;
+  padding-bottom: 15px;
+}
+
+.lasttext .left{
+  background-color: white;
+  border-radius: 10px;
+  padding: 6px;
+  /* height: auto; */
+}
+
+.lasttext .left{
+  outline: none;
+}
+
+.lasttext .left button{
+  background-color: rgb(49, 83, 234);
+  border-radius: 10px;
+  padding: 12px 25px;  
+  margin-left: 28%;
+  color: white;
+}
+.about .right img{
+  width: 40%;
+  margin-left: 50%;
+}
+.about .right{
+  padding: 20px;
+}
+
+
+
+
+
+
+/* foootersectionnnnn4444444444 */
+.copyright{
+  background-color: #000;
+  width: 100%;
+  height:40px;
+  margin-top: 5%;
+
+}
+
+ .copyright h1{
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+}
+
